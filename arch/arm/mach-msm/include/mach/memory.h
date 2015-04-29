@@ -37,7 +37,8 @@
 		defined(CONFIG_MACH_MSM8974_G2_KT) || \
 		defined(CONFIG_MACH_MSM8974_G2_SPR) || \
 		defined(CONFIG_MACH_MSM8974_G2_VZW) || \
-		defined(CONFIG_MACH_MSM8974_G2_KDDI)
+		defined(CONFIG_MACH_MSM8974_G2_KDDI) || \
+		defined(CONFIG_MACH_MSM8974_G2_DCM)
 #define KEXEC_HB_PAGE_ADDR		UL(0x07b00000)
 #else
 #error "Adress for kexec hardboot page not defined"
